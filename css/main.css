@@ -100,24 +100,35 @@ textarea {
     h2 {
         color: #4c4c4c;
     }
+    h3 {
+        text-align: center;
+    }
     #accueil img { /* ------img du bloc de presentation -------*/
         margin-left: 50px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
+    .theme img {
+        margin-bottom: 20px;
+    }
+    .main-section {
+        margin-bottom: 30px;
+    }
+    .galery img {
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+/* /////////////// ici mediaQuerie que pr smartphone ajustement des block ///////////////////////*/
+    @media all and (max-width: 468px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        .container {
+            margin-top: 40px;
+        }
+        p {
+            font-size: 0.85em;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
 
 /* ==========================================================================
    Helper classes
