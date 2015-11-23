@@ -133,7 +133,16 @@ textarea {
         height: 700px;
     }
 
-
+footer {
+    height: 150px;
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+footer p {
+    color: white;
+    margin-left: 150px;
+    padding-top: 20px;
+}
 
 
 /* /////////////// ici mediaQuerie que pr smartphone ajustement des block ///////////////////////*/
