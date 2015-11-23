@@ -117,6 +117,25 @@ textarea {
         margin-left: 30px;
         margin-bottom: 20px;
     }
+    #huguette  {
+        float: left;
+    }
+    #tiger {
+        float: right;
+    }
+    i {
+        padding-right: 60px;
+        padding-left:50px;
+        display: block;
+
+    }
+    .pricing-table {
+        height: 700px;
+    }
+
+
+
+
 /* /////////////// ici mediaQuerie que pr smartphone ajustement des block ///////////////////////*/
     @media all and (max-width: 468px) {
 
@@ -129,6 +148,8 @@ textarea {
             margin-right: 10px;
         }
     }
+
+
 
 /* ==========================================================================
    Helper classes
